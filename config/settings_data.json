@@ -220,18 +220,76 @@
           "text": "<p>Sheets, Pillow, Blankets<\/p>\n<p>Still developing. Join our email list for all the newest updates.<\/p>",
           "text_size": "small"
         }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": false,
+          "collection_sort_enable": false,
+          "collection_tags_enable": false,
+          "collection_products_grid": "collage",
+          "product_vendor_enable": false
+        }
+      },
+      "1577083514766": {
+        "type": "advanced-content",
+        "blocks": {
+          "1577083514766-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:center;\">\n<h2>Use HTML to format your text so it can be easily read.<\/h2>This text can be used to share information about your brand with customers.<\/div>",
+              "width": "75%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1577083514766-0"
+        ],
+        "settings": {}
+      },
+      "1577083665377": {
+        "type": "advanced-content",
+        "blocks": {
+          "1577083665377-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:center;\">\n<h2>Use HTML to format your text so it can be easily read.<\/h2>This text can be used to share information about your brand with customers.<\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "1577083665377-0"
+        ],
+        "settings": {}
+      },
+      "1577170387137": {
+        "type": "featured-row",
+        "settings": {
+          "image": "",
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "featured-content",
+      "1577083514766",
+      "1577083665377",
       "1577014137305",
       "1577014296603",
       "1577014356257",
       "featured-products",
       "featured-collections",
+      "1577014495534",
       "newsletter",
-      "1577014495534"
+      "1577170387137"
     ]
   },
   "presets": {
